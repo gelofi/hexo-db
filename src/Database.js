@@ -17,7 +17,6 @@ class Database {
      */
     
      constructor(shardURL){
-       super(shardURL);
        this.database = shardURL;
      }
 
