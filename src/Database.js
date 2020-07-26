@@ -3,7 +3,7 @@ const Util = require('./Util');
 
 /**
  * HexoDB -
- * Your own database, maintained on Glitch.
+ * Your own database, maintained on Glitch/Repl.it.
  * Created by Fizuku | Fizx | FizxCreations.
  */
 
