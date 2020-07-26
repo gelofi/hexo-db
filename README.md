@@ -1,5 +1,5 @@
 # hexo-db
-An NPM Package helper to let you interact with your HexoShard on Glitch.
+An NPM Package helper to let you interact with your HexoShard database.
 
 ## What is HexoDB?
 An easy external database for your small projects, like Discord bots!
