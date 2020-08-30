@@ -11,7 +11,7 @@ class Database {
     
     /**
      * Creates HexoDB instance
-     * @param {string} HexoShard Glitch project domain
+     * @param {string} HexoShard Repl.it project domain
      * @example const Hexo = require("hexo-db");
      * const db = new Hexo.Database("https://hexodb.glitch.me/");
      */
@@ -30,7 +30,7 @@ class Database {
       if (!Util.isValue(value)) throw new Error("Invalid value provided!", "ValueError");
       if(typeof value == "number") value = (value).toString()
       let { body } = await superagent.get(this.database + "/set?" + key + "=" + value);
-      if(!{ body }) throw new Error("The HexoShard URL is invalid! No data was found.", "KeyError");
+      if(!{ body }) throw new Error("The HexoShard URL is invalid! No data was found.", "HexoError");
 
       return body.operation
     }
