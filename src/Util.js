@@ -20,7 +20,7 @@ class Util {
         return true;
     }
 
-        /**
+     /**
      * Sort data
      * @param {string} key Key
      * @param {Array} data Data
@@ -38,3 +38,5 @@ class Util {
     }
 
 }
+
+module.exports = Util

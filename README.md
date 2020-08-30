@@ -9,8 +9,7 @@ HexoDB is:
 * Fast read and writing data
 
 ## Getting Started
-If you're interested to get your on database, which is hosted on Repl.it, you may visit the site
-by clicking [here](https://hexo--db.repl.co/)
+If you're interested to get your own database, you may visit our site by clicking [here](https://hexodb.glitch.me/)
 
 ## Example
 ```

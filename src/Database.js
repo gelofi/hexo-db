@@ -3,7 +3,7 @@ const Util = require('./Util');
 
 /**
  * HexoDB -
- * Your own database, maintained on Glitch/Repl.it.
+ * Your own database, maintained on Glitch or Repl.it
  * Created by Fizuku | Fizx | FizxCreations.
  */
 
@@ -15,7 +15,6 @@ class Database {
      * @example const Hexo = require("hexo-db");
      * const db = new Hexo.Database("https://hexodb.glitch.me/");
      */
-    
      constructor(shardURL){
        this.database = shardURL;
      }
@@ -29,7 +28,7 @@ class Database {
      async set(key, value){
       if (!Util.isKey(key)) throw new Error("Invalid key provided!", "KeyError");
       if (!Util.isValue(value)) throw new Error("Invalid value provided!", "ValueError");
-
+      if(typeof value == "number") value = (value).toString()
       let { body } = await superagent.get(this.database + "/set?" + key + "=" + value);
       if(!{ body }) throw new Error("The HexoShard URL is invalid! No data was found.", "KeyError");
 
