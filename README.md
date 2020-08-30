@@ -12,7 +12,7 @@ HexoDB is:
 If you're interested to get your own database, you may visit our site by clicking [here](https://hexodb.glitch.me/)
 
 ## Example
-```
+```js
 const Hexo = require("hexo-db");
 const db = new Hexo.Database("https://db--username.repl.co")
 
