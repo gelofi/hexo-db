@@ -37,4 +37,4 @@ This project is licensed under the Apache License 2.0 - see [LICENSE.md](LICENSE
 for details.
 
 ## Support
-You may join our server— [FizxCreations](https://discord.gg/6uWa4Ga) - a server for all my creations!
+You may contact me on Discord! (Fizx#5360)
